@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inwi eLeague 2024</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/your-fontawesome-kit.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header class="floating-header">
+        <div class="header-content">
+            <div class="logo">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/ef/Logo_inwi.svg/2560px-Logo_inwi.svg.png" alt="Inwi eLeague Logo">
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#video-intro">Accueil</a></li>
+                    <li><a href="#countdown">Compte à rebours</a></li>
+                    <li><a href="#qualification">Qualification</a></li>
+                    <li><a href="#game-choice">Jeux</a></li>
+                    <li><a href="#rewards">Récompenses</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="video-intro" class="fullscreen-section">
+            <video class="video-background" autoplay loop muted playsinline>
+                <source src="video/videoplayback.mp4" type="video/mp4">
+            </video>
+            <div class="scroll-indicator">
+                <span>Scroll</span>
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <section id="countdown" class="fullscreen-section">
+            <div class="slide-content">
+                <h1 class="main-title animated-title">Inwi eLeague 2024</h1>
+                <h2 class="subtitle animated-title">Plongez dans l'Arène des Champions !</h2>
+                <div id="countdown-timer" class="digital-countdown">
+                    <div class="countdown-item">
+                        <span id="days">00</span>
+                        <p>Jours</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <p>Heures</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <p>Minutes</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <p>Secondes</p>
+                    </div>
+                </div>
+                <p class="countdown-message animated-text">La route vers la gloire commence ici !</p>
+                <button class="cta-button animated-button">Découvrir le tournoi</button>
+            </div>
+        </section>
+
+        <section id="qualification" class="fullscreen-section">
+            <div class="slide-content">
+                <h2 class="animated-title">Les Phases de Qualification : Deux Jeux, Une Seule Légende</h2>
+                <p class="animated-text">Le tournoi se déroule en plusieurs phases de qualification pour chaque jeu. Free Fire et Valorant ont des formats uniques pour tester la stratégie, la précision et le travail d'équipe de chaque participant.</p>
+                <div class="format-details">
+                    <div class="game-format free-fire animated-card">
+                        <h3>Free Fire</h3>
+                        <ul>
+                            <li>Battle Royale en équipe de 4 sur mobile</li>
+                            <li>4 phases de qualification</li>
+                            <li>4 équipes qualifiées par phase</li>
+                            <li>Finale en round robin leaderboard</li>
+                        </ul>
+                    </div>
+                    <div class="game-format valorant animated-card">
+                        <h3>Valorant</h3>
+                        <ul>
+                            <li>FPS compétitif sur PC</li>
+                            <li>Qualifications par équipe</li>
+                            <li>2 équipes qualifiées par phase</li>
+                            <li>Finale en round robin</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="game-choice" class="fullscreen-section">
+            <div class="slide-content">
+                <h2 class="animated-title">Choisissez Votre Arène</h2>
+                <div class="game-posters">
+                    <div class="game-poster free-fire animated-card">
+                        <img src="path/to/free-fire-poster.jpg" alt="Free Fire">
+                        <button class="cta-button">Choisir Free Fire</button>
+                    </div>
+                    <div class="game-poster valorant animated-card">
+                        <img src="path/to/valorant-poster.jpg" alt="Valorant">
+                        <button class="cta-button">Choisir Valorant</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Ajoutez d'autres sections selon vos besoins -->
+
+    </main>
+
+    <footer>
+        <!-- Contenu du footer -->
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

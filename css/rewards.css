@@ -1,0 +1,41 @@
+#rewards {
+    background: linear-gradient(135deg, rgba(173,33,132,0.05) 0%, rgba(90,13,90,0.05) 100%);
+    padding: 6rem 2rem;
+}
+
+.rewards-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.reward-item {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    border-radius: 20px;
+    padding: 2rem;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 10px 30px rgba(173, 33, 132, 0.1);
+    opacity: 1; /* Changé de 0 à 1 */
+}
+
+.reward-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(173, 33, 132, 0.2);
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+.partner-name {
+    color: var(--primary-color);
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+    font-weight: 700;
+}
+
+.partner-description {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    color: var(--text-color);
+}

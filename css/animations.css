@@ -1,0 +1,38 @@
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes glow {
+    0% {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px var(--primary-color), 0 0 20px var(--primary-color);
+    }
+    100% {
+        text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--primary-color), 0 0 40px var(--primary-color);
+    }
+}
+
+.animated {
+    animation: fadeInUp 0.5s ease-out forwards;
+}
+
+.glow {
+    animation: glow 2s ease-in-out infinite alternate;
+}
+
+.animated-card {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s ease, transform 0.5s ease;
+}
+
+.animated-card.show {
+    opacity: 1;
+    transform: translateY(0);
+}

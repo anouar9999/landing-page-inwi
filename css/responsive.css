@@ -1,0 +1,93 @@
+@media (max-width: 1200px) {
+    .section-content {
+        padding: 0 20px;
+    }
+}
+
+@media (max-width: 992px) {
+    .game-posters {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .game-poster {
+        margin-bottom: 2rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .floating-header {
+        padding: 10px;
+    }
+
+    .features-grid, .rewards-grid, .countdown-info {
+        grid-template-columns: 1fr;
+    }
+
+    .digital-countdown {
+        flex-wrap: wrap;
+    }
+
+    .countdown-item {
+        flex-basis: 50%;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .main-title {
+        font-size: 2.5rem;
+    }
+
+    .subtitle {
+        font-size: 1.5rem;
+    }
+
+    .futuristic-button {
+        padding: 10px 20px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Ajustements pour les petits écrans */
+@media (max-width: 480px) {
+    .features-grid,
+    .game-posters,
+    .prizes-grid,
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .countdown-item {
+        padding: 0.5rem;
+    }
+
+    .countdown-item span {
+        font-size: 2rem;
+    }
+}
+
+/* Ajustements pour les écrans moyens */
+@media (min-width: 481px) and (max-width: 768px) {
+    .features-grid,
+    .game-posters,
+    .prizes-grid,
+    .steps-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+/* Ajustements pour les grands écrans */
+@media (min-width: 1200px) {
+    .section-content {
+        max-width: 80%;
+    }
+}
+
+/* Ajustements pour les écrans très hauts */
+@media (min-height: 1000px) {
+    .fullscreen-section {
+        justify-content: flex-start;
+        padding-top: 10vh;
+    }
+}

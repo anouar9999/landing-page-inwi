@@ -1,0 +1,58 @@
+/* ou css/main.css */
+* {
+    opacity: 1;
+}
+
+.section-content, .fullscreen-section, .game-poster, .reward-item, .countdown-container, .countdown-item {
+    opacity: 1 !important;
+}
+
+.feature-icon, .reward-icon {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    color: #ad2184; /* Couleur principale d'Inwi */
+}
+
+.parallax-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('path/to/your/background-image.jpg');
+    background-size: cover;
+    z-index: -1;
+}
+
+#particles-canvas {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+}
+
+.section-content {
+    padding: 2rem;
+    background: rgba(0, 0, 0, 0.7);
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(173, 33, 132, 0.3);
+}
+
+.cta-button {
+    background: linear-gradient(45deg, #ad2184, #ff4db8);
+    border: none;
+    padding: 12px 24px;
+    color: white;
+    font-weight: bold;
+    border-radius: 25px;
+    text-transform: uppercase;
+    transition: all 0.3s ease;
+}
+
+.cta-button:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 15px rgba(173, 33, 132, 0.5);
+}

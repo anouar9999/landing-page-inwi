@@ -1,0 +1,162 @@
+.how-to-participate {
+    background: linear-gradient(135deg, rgba(173,33,132,0.05) 0%, rgba(90,13,90,0.05) 100%);
+    padding: 3rem 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.how-to-participate::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: url('path/to/gaming-pattern.png') repeat;
+    opacity: 0.05;
+    animation: backgroundScroll 20s linear infinite;
+}
+
+@keyframes backgroundScroll {
+    0% { transform: translate(0, 0); }
+    100% { transform: translate(-50%, -50%); }
+}
+
+.steps-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.step-item {
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    padding: 1.5rem;
+    text-align: center;
+    transition: all 0.3s ease;
+    border: 1px solid rgba(173,33,132,0.1);
+}
+
+.step-item::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #ad2184, #ff4db8);
+}
+
+.step-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(173, 33, 132, 0.1);
+}
+
+.step-item h3 {
+    color: #AD2184;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-family: 'Orbitron', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.step-item p {
+    font-size: 0.9rem;
+    line-height: 1.4;
+    color: #ffffff;
+}
+
+.participation-note {
+    background: rgba(173,33,132,0.05);
+    border-radius: 10px;
+    padding: 1rem;
+    margin: 1.5rem auto;
+    max-width: 600px;
+    text-align: center;
+    border: 1px solid rgba(173,33,132,0.1);
+}
+
+.participation-note::before {
+    content: '\f0a1';
+    font-family: 'Font Awesome 5 Free';
+    position: absolute;
+    top: -15px;
+    left: -15px;
+    font-size: 60px;
+    color: rgba(173,33,132,0.1);
+    transform: rotate(-15deg);
+}
+
+.participation-note p {
+    margin: 0!important;
+    color: #d8c4d8;
+    font-size: 0.85rem;
+    font-weight: 500;
+    line-height: 1.4;
+    max-width: 100%;
+}
+
+.participation-note:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(173,33,132,0.1);
+}
+
+@media (max-width: 768px) {
+    .participation-note {
+        padding: 0.8rem;
+    }
+
+    .participation-note p {
+        font-size: 0.75rem;
+    }
+}
+
+#how-to-participate .cta-button {
+    display: inline-block;
+    padding: 0.8rem 1.5rem;
+    background-color: #AD2184;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    margin-top: 1.5rem;
+}
+
+#how-to-participate .cta-button:hover {
+    background-color: #5a0d5a;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(173, 33, 132, 0.3);
+}
+
+@media (max-width: 768px) {
+    .steps-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .step-item {
+        padding: 1.2rem;
+    }
+
+    .step-item h3 {
+        font-size: 1.1rem;
+    }
+
+    .step-item p {
+        font-size: 0.8rem;
+    }
+
+    .participation-note {
+        padding: 0.8rem;
+    }
+
+    .participation-note p {
+        font-size: 0.75rem;
+    }
+}
