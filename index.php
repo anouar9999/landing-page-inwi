@@ -33,7 +33,7 @@ $sections = [
         'description' => 'Had tri9 machi sahla, walakin fiha l\'honneur w l\'gloire. Ghadi tel3bo m3a ahsan les joueurs f lMaghrib, w twerriw lblad kamla chno 3andkom.',
         'features' => [
             'Free Fire' => 'Battle Royale 3la l\'mobile, dir team dyal 4 w chouf chkoun li ghadi ib9a lekher. 4 dyal les phases bach twsel l finale.',
-            'Valorant' => 'L3ba tactique 3la PC, khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
+            // 'Valorant' => 'L3ba tactique 3la PC, khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
             'Conditions' => 'Khasek tkoun faye9 16 ans, tkoun maghribi, w ma3andekch lwe9t tdi3o hit les places mahdoudin.',
             'Finale' => 'Round robin bach n3erfo chkoun huwa l\'btal l\'ha9i9i dyal lMaghrib.'
         ],
