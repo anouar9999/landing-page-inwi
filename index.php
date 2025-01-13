@@ -187,7 +187,7 @@ $sections = [
                                                 <div class="poster-overlay">
                                                     <h3><?php echo $game; ?></h3>
                                                     <p class="game-slogan"><?php echo $details['slogan']; ?></p>
-                                                    <p class="game-description"><?php echo $details['description']; ?>sssssssssss</p>
+                                                    <p class="game-description"><?php echo $details['description']; ?></p>
                                                     <a href="<?php echo $details['link']; ?>" class="game-link" target="_blank" rel="noopener noreferrer">En savoir plus</a>
                                                 </div>
                                             </div>
