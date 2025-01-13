@@ -37,7 +37,9 @@ $sections = [
             'Conditions' => 'Khasek tkoun faye9 16 ans, tkoun maghribi, w ma3andekch lwe9t tdi3o hit les places mahdoudin.',
             'Finale' => 'Round robin bach n3erfo chkoun huwa l\'btal l\'ha9i9i dyal lMaghrib.'
         ],
-        'cta' => 'Chouf kifach tcharek m3ana'
+        'cta' => 'Chouf kifach tcharek m3ana',
+        'cta_link' => 'http://62.60.157.218:3001/auth/auth1/login'
+
     ],
     'cashprize' => [
         'title' => 'Rbe7 w welli mchhor',
@@ -185,7 +187,7 @@ $sections = [
                                                 <div class="poster-overlay">
                                                     <h3><?php echo $game; ?></h3>
                                                     <p class="game-slogan"><?php echo $details['slogan']; ?></p>
-                                                    <p class="game-description"><?php echo $details['description']; ?></p>
+                                                    <p class="game-description"><?php echo $details['description']; ?>sssssssssss</p>
                                                     <a href="<?php echo $details['link']; ?>" class="game-link" target="_blank" rel="noopener noreferrer">En savoir plus</a>
                                                 </div>
                                             </div>
