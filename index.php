@@ -6,7 +6,9 @@ $sections = [
         'subtitle' => "L'Arena dyal l'Abtal Virtuels",
         'video' => 'video/videoplayback.mp4',
         'description' => 'Marhba bikom f akbar tournoi dyal e-sport f lMaghrib. Werriw lina chno 3andkom f Free Fire w Valorant.',
-        'cta' => 'Dkhol l3alam dyal INWI ELEAGUE'
+        'cta' => 'Dkhol l3alam dyal INWI ELEAGUE',
+        'cta_link' => 'http://62.60.157.218:3001/auth/auth1/login'
+
     ],
     'game-showcase' => [
         'title' => 'L3eb m3ana f INWI ELEAGUE!',
@@ -16,13 +18,13 @@ $sections = [
                 'image' => 'image/freefire_poster.png',
                 'slogan' => 'Ghir li 9wi li ghadi ib9a',
                 'description' => 'Battle Royale 3la l\'mobile, l3iba fiha excitement. Khasek strategy w reflexes rapides bach treb7 contre 49 joueurs khrin.',
-                'link' => 'http://51.79.24.18:3001/auth/auth1/login'
+                'link' => 'http://62.60.157.218:3001/auth/auth1/login'
             ],
             'Valorant' => [
                 'image' => 'image/valorant_poster.png',
                 'slogan' => 'Precision w Teamwork',
                 'description' => '5v5 3la PC. Khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
-                'link' => 'http://51.79.24.18:3001/auth/auth1/login'
+                'link' => 'http://62.60.157.218:3001/auth/auth1/login'
             ]
         ]
     ],
@@ -58,7 +60,7 @@ $sections = [
             'Reach the Finals' => 'Top performers will advance to the grand finale. Are you ready for the spotlight?'
         ],
         'cta' => 'Start Your INWI ELEAGUE Journey Now',
-        'cta_link' => 'http://51.79.24.18:3001/auth/auth1/login'
+        'cta_link' => 'http://62.60.157.218:3001/auth/auth1/login'
     ],
     'countdown' => [
         'title' => 'L3eb m3ana f INWI ELEAGUE!',
@@ -70,7 +72,7 @@ $sections = [
             'Inscription' => 'Katbda f: 1 janvier 2025',
         ],
         'cta' => 'Sjel daba w rbe7!',
-        'cta_link' => 'http://51.79.24.18:3001/auth/auth1/login'
+        'cta_link' => 'http://62.60.157.218:3001/auth/auth1/login'
     ]
 ];
 ?>
@@ -134,7 +136,7 @@ $sections = [
                 <ul role="menubar">
                     <?php foreach ($sections as $id => $section): ?>
                         <li role="none">
-                            <a href="#<?php echo $id; ?>" class="nav-link" role="menuitem" aria-label="<?php echo ucfirst(str_replace('-', ' ', $id)); ?>">
+                            <a href="/<?php echo $id; ?>" class="nav-link" role="menuitem" aria-label="<?php echo ucfirst(str_replace('-', ' ', $id)); ?>">
                                 <span class="nav-text"><?php echo ucfirst(str_replace('-', ' ', $id)); ?></span>
                             </a>
                         </li>
@@ -158,7 +160,7 @@ $sections = [
             <div class="video-content">
                 <h1 class="main-title"><?php echo $sections['video-intro']['title']; ?></h1>
                 <p class="intro-description"><?php echo $sections['video-intro']['description']; ?></p>
-                <button class="cta-button pulse-effect"><?php echo $sections['video-intro']['cta']; ?></button>
+                <a type="button"   href="<?php echo $sections['video-intro']['cta_link']; ?>" class="cta-button pulse-effect"><?php echo $sections['video-intro']['cta']; ?></a>
             </div>
             <div class="scroll-indicator"></div>
         </section>
