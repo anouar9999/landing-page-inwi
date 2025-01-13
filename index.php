@@ -14,26 +14,26 @@ $sections = [
         'title' => 'L3eb m3ana f INWI ELEAGUE!',
         'description' => 'Jouj dyal les jeux, jouj dyal les défis kbar. Wach ghadi tkoun l\'btal dyal Free Fire wla l\'tacticien dyal Valorant? L\'choix 3andek.',
         'games' => [
-            'Free Fire' => [
-                'image' => 'image/freefire_poster.png',
-                'slogan' => 'Ghir li 9wi li ghadi ib9a',
-                'description' => 'Battle Royale 3la l\'mobile, l3iba fiha excitement. Khasek strategy w reflexes rapides bach treb7 contre 49 joueurs khrin.',
-                'link' => 'http://62.60.157.218:3001/auth/auth1/login'
-            ],
-            // 'Valorant' => [
-            //     'image' => 'image/valorant_poster.png',
-            //     'slogan' => 'Precision w Teamwork',
-            //     'description' => '5v5 3la PC. Khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
+            // 'Free Fire' => [
+            //     'image' => 'image/freefire_poster.png',
+            //     'slogan' => 'Ghir li 9wi li ghadi ib9a',
+            //     'description' => 'Battle Royale 3la l\'mobile, l3iba fiha excitement. Khasek strategy w reflexes rapides bach treb7 contre 49 joueurs khrin.',
             //     'link' => 'http://62.60.157.218:3001/auth/auth1/login'
-            // ]
+            // ],
+            'Valorant' => [
+                'image' => 'image/valorant_poster.png',
+                'slogan' => 'Precision w Teamwork',
+                'description' => '5v5 3la PC. Khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
+                'link' => 'http://62.60.157.218:3001/auth/auth1/login'
+            ]
         ]
     ],
     'tournament-overview' => [
         'title' => 'Tri9 l Glory',
         'description' => 'Had tri9 machi sahla, walakin fiha l\'honneur w l\'gloire. Ghadi tel3bo m3a ahsan les joueurs f lMaghrib, w twerriw lblad kamla chno 3andkom.',
         'features' => [
-            'Free Fire' => 'Battle Royale 3la l\'mobile, dir team dyal 4 w chouf chkoun li ghadi ib9a lekher. 4 dyal les phases bach twsel l finale.',
-            // 'Valorant' => 'L3ba tactique 3la PC, khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
+            // 'Free Fire' => 'Battle Royale 3la l\'mobile, dir team dyal 4 w chouf chkoun li ghadi ib9a lekher. 4 dyal les phases bach twsel l finale.',
+            'Valorant' => 'L3ba tactique 3la PC, khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
             'Conditions' => 'Khasek tkoun faye9 16 ans, tkoun maghribi, w ma3andekch lwe9t tdi3o hit les places mahdoudin.',
             'Finale' => 'Round robin bach n3erfo chkoun huwa l\'btal l\'ha9i9i dyal lMaghrib.'
         ],
