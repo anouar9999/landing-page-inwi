@@ -20,12 +20,12 @@ $sections = [
                 'description' => 'Battle Royale 3la l\'mobile, l3iba fiha excitement. Khasek strategy w reflexes rapides bach treb7 contre 49 joueurs khrin.',
                 'link' => 'http://62.60.157.218:3001/auth/auth1/login'
             ],
-            'Valorant' => [
-                'image' => 'image/valorant_poster.png',
-                'slogan' => 'Precision w Teamwork',
-                'description' => '5v5 3la PC. Khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
-                'link' => 'http://62.60.157.218:3001/auth/auth1/login'
-            ]
+            // 'Valorant' => [
+            //     'image' => 'image/valorant_poster.png',
+            //     'slogan' => 'Precision w Teamwork',
+            //     'description' => '5v5 3la PC. Khasek tkoun mzian f l\'aim w strategy. Ghadi twa9ef ahsan les joueurs f lMaghrib f des duels.',
+            //     'link' => 'http://62.60.157.218:3001/auth/auth1/login'
+            // ]
         ]
     ],
     'tournament-overview' => [
